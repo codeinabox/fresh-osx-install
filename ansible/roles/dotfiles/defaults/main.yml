@@ -1,0 +1,4 @@
+
+dotfiles:
+    repo: https://github.com/codeinabox/dotfiles.git
+    path: ~/dotfiles

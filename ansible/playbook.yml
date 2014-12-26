@@ -1,0 +1,7 @@
+---
+- hosts: dev_machine
+
+  roles:
+    - brew
+    - shell
+    - dotfiles
