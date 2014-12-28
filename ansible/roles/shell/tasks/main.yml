@@ -12,14 +12,3 @@
 - name: Change shell to zsh
   command: chsh -s {{ zsh_path_result.stdout }} {{ansible_user_id}}
   sudo: yes
-
-- name: Download Prezto
-  git: repo=https://github.com/sorin-ionescu/prezto.git dest=~/.zprezto recursive=yes
-
-- name: Register runcoms files to be linked
-  shell: find ~/.zprezto/runcoms -maxdepth 1 -not -iname 'README.md' -type f -exec basename {} \;
-  register: prezto_runcoms_result
-
-- name: Link runcoms
-  file: src=~/.zprezto/runcoms/{{ item }} dest=~/.{{ item }} state=link
-  with_items: prezto_runcoms_result.stdout_lines

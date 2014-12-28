@@ -4,5 +4,6 @@
   roles:
     - brew
     - shell
+    - prezto
     - dotfiles
     - vim
