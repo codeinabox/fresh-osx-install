@@ -1,14 +1,14 @@
 ---
 # Shell
 
-- name: Get the zsh path
-  shell: which zsh
-  register: zsh_path_result
+- name: Get the shell path
+  shell: which {{ shell.name }}
+  register: shell_path_result
 
-- name: Ensure zsh path in approved shells
+- name: Ensure shell path is in approved shells
   sudo: yes
-  lineinfile: dest=/etc/shells line={{ zsh_path_result.stdout }}
+  lineinfile: dest=/etc/shells line={{ shell_path_result.stdout }}
 
-- name: Change shell to zsh
-  command: chsh -s {{ zsh_path_result.stdout }} {{ansible_user_id}}
+- name: Change the shell
+  command: chsh -s {{ shell_path_result.stdout }} {{ansible_user_id}}
   sudo: yes
