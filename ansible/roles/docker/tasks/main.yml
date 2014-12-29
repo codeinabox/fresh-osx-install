@@ -1,0 +1,14 @@
+---
+# Docker
+
+- name: Ensure Virtualbox is installed
+  homebrew_cask: name=virtualbox state=present
+
+- name: Install docker and boot2docker
+  homebrew: name=boot2docker state=present
+  with_items:
+      - docker
+      - boot2docker
+
+- name: Initialise boot2docker
+  command: boot2docker init
