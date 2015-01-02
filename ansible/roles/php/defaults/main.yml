@@ -7,7 +7,7 @@ php:
             - homebrew/php
         packages:
             - php55
-            # - php55-mcrypt
             - php-code-sniffer
             - composer
             - phpmd
+            - phpunit
