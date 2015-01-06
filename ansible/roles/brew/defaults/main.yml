@@ -1,24 +1,24 @@
 homebrew:
     taps:
-      - homebrew/dupes
-      - homebrew/versions
-      - caskroom/cask
+        - homebrew/dupes
+        - homebrew/versions
+        - caskroom/cask
 
     packages:
-     - git
-     - vim
-     - brew-cask
-     - wget
-     - zsh
-     - ruby
-     - ctags
+        - git
+        - vim
+        - brew-cask
+        - wget
+        - zsh
+        - ruby
+        - ctags
 
     casks:
-      - firefox
-      - dropbox
-      - iterm2
-      - google-chrome
-      - appcleaner
-      - time-out
-      - selfcontrol
-      - isolator
+        - firefox
+        - dropbox
+        - iterm2
+        - google-chrome
+        - appcleaner
+        - time-out
+        - selfcontrol
+        - isolator
