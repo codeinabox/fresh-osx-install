@@ -12,6 +12,7 @@ homebrew:
         - zsh
         - ruby
         - ctags
+        - tmux
 
     casks:
         - firefox
