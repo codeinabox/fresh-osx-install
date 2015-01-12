@@ -7,5 +7,6 @@
     - prezto
     - dotfiles
     - vim
+    - tmux
     - docker
     - php
