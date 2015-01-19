@@ -1,0 +1,3 @@
+
+dokku:
+  path: ~/.dokku

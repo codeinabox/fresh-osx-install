@@ -10,3 +10,4 @@
     - tmux
     - docker
     - brew-php
+    - dokku

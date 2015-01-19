@@ -1,0 +1,7 @@
+---
+- name: Download from repo
+  git: repo=https://github.com/progrium/dokku.git dest={{ dokku.path }}
+
+- name: Add dokku.me to /etc/hosts
+  sudo: yes
+  lineinfile: dest=/etc/hosts line="10.0.0.2 dokku.me"
