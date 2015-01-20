@@ -1,4 +1,5 @@
 
 dokku:
+  repo: https://github.com/progrium/dokku.git
   path: ~/.dokku
   port: 8088
