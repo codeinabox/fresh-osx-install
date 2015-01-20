@@ -1,3 +1,4 @@
 
 dokku:
   path: ~/.dokku
+  port: 8088

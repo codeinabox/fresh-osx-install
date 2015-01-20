@@ -5,3 +5,6 @@
 - name: Add dokku.me to /etc/hosts
   sudo: yes
   lineinfile: dest=/etc/hosts line="10.0.0.2 dokku.me"
+
+- name: Change the host port
+  replace: "dest={{ dokku.path }}/Vagrantfile  regexp='host: 8080' replace='host: {{ dokku.port }}'"
