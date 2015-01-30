@@ -14,6 +14,7 @@ homebrew:
         - ctags
         - tmux
         - reattach-to-user-namespace
+        - direnv
 
     casks:
         - firefox
