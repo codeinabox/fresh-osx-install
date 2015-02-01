@@ -15,6 +15,7 @@ homebrew:
         - tmux
         - reattach-to-user-namespace
         - direnv
+        - vimpager
 
     casks:
         - firefox
