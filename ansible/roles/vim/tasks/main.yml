@@ -4,5 +4,5 @@
 - name: Download Vundle
   git: repo=https://github.com/gmarik/Vundle.vim.git dest=~/.vim/bundle/Vundle.vim
 
-- name: Install plugins
-  shell: vim +PluginInstall +qall
+- name: Install and update plugins
+  shell: vim +PluginInstall +PluginUpdate +qall
