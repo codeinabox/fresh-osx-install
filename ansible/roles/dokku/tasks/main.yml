@@ -1,6 +1,6 @@
 ---
 - name: Download from repo
-  git: repo={{ dokku.repo }} dest={{ dokku.path }}
+  git: repo={{ dokku.repo }} dest={{ dokku.path }} force=yes
 
 - name: Add dokku.me to /etc/hosts
   sudo: yes
