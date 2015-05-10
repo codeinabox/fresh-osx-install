@@ -6,6 +6,3 @@
 
 - name: Install and update plugins
   shell: vim +PluginInstall +PluginUpdate +qall
-
-- name: Clean out unused plugins
-  shell: vim +PluginClean +qall
