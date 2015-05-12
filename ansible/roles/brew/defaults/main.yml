@@ -27,3 +27,4 @@ homebrew:
         - selfcontrol
         - isolator
         - flux
+        - gpgtools
