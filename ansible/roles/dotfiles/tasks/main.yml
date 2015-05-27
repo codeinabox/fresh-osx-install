@@ -2,7 +2,7 @@
 # Dotfiles
 
 - name: Download from repo
-  git: repo={{ dotfiles.repo }} dest={{ dotfiles.path }} version=master force=no
+  git: repo={{ dotfiles.repo }} dest={{ dotfiles.path }} version=master force=no recursive=yes
 
 - name: Get the list of dotfiles excluding .git
   shell: find {{ dotfiles.path }} -maxdepth 1 -not -path '*/.git' -iname '.*' -exec basename {} \;
