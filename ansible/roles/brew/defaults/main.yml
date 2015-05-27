@@ -16,6 +16,7 @@ homebrew:
         - reattach-to-user-namespace
         - direnv
         - vimpager
+        - nodejs
 
     casks:
         - firefox
