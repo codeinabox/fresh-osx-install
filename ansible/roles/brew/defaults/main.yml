@@ -17,6 +17,7 @@ homebrew:
         - direnv
         - vimpager
         - nodejs
+        - entr
 
     casks:
         - firefox
