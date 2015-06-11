@@ -12,8 +12,11 @@
   with_items: homebrew.taps
 
 - name: Install packages
-  homebrew: name={{ item }} state=present 
+  homebrew: name={{ item }} state=present
   with_items: homebrew.packages
+
+- name: Install Vim with install options
+  homebrew: name=vim state=present install_options=with-lua
 
 - name: Install casks
   homebrew_cask: name={{ item }}

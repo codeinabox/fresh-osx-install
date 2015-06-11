@@ -6,7 +6,6 @@ homebrew:
 
     packages:
         - git
-        - vim
         - brew-cask
         - wget
         - zsh
