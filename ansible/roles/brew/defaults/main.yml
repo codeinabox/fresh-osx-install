@@ -18,6 +18,7 @@ homebrew:
         - nodejs
         - entr
         - hub
+        - ack
 
     casks:
         - firefox
