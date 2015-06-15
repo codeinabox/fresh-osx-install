@@ -19,6 +19,7 @@ homebrew:
         - entr
         - hub
         - ack
+        - go
 
     casks:
         - firefox
