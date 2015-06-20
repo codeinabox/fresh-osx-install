@@ -8,6 +8,7 @@ php:
         packages:
             - php55
             - php55-mcrypt
+            - php55-xdebug
             - php-code-sniffer
             - composer
             - phpmd
