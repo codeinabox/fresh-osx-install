@@ -20,6 +20,7 @@ homebrew:
         - hub
         - ack
         - go
+        - python
 
     casks:
         - firefox
