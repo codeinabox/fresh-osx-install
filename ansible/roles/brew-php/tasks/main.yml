@@ -9,5 +9,5 @@
   homebrew_tap: tap=josegonzalez/php state=absent
 
 - name: Install packages
-  homebrew: name={{ item }} state=present
+  homebrew: name={{ item }} state=latest
   with_items: php.brew.packages
