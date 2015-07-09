@@ -10,4 +10,5 @@
     - tmux
     - docker
     - brew-php
+    - npm
     - dokku

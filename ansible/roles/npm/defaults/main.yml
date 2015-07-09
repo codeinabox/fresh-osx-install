@@ -1,0 +1,7 @@
+npm:
+    global:
+        - bower
+        - gulp
+        - js-yaml
+        - jshint
+        - jsonlint
