@@ -1,0 +1,18 @@
+---
+osx:
+  prefs:
+
+    # Disable the caps lock key on the internal keyboard
+    - domain: com.apple.keyboard.modifiermapping.1452-566-0
+      key: -array
+      value: <dict><key>HIDKeyboardModifierMappingDst</key><integer>-1</integer><key>HIDKeyboardModifierMappingSrc</key><integer>0</integer></dict>
+
+    # Disable the caps lock key on external keyboards
+    - domain: com.apple.keyboard.modifiermapping.1452-544-0
+      key: -array
+      value: <dict><key>HIDKeyboardModifierMappingDst</key><integer>-1</integer><key>HIDKeyboardModifierMappingSrc</key><integer>0</integer></dict>
+
+    # Empty trash securely by default
+    - domain: com.apple.finder EmptyTrashSecurely
+      key: -bool
+      value: true

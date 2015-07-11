@@ -1,0 +1,15 @@
+---
+# OS X
+
+- name: "OS X Preferences"
+  command: defaults write {{item.domain}} {{item.key}} {{item.value}}
+  when: ansible_os_family == "Darwin"
+  with_items: osx.prefs
+
+- name: "Killing affected apps"
+  command: killall {{item}}
+  when: ansible_os_family == "Darwin"
+  with_items:
+    - "Dock"
+    - "Finder"
+    - "SystemUIServer"
