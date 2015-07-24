@@ -3,6 +3,7 @@ homebrew:
         - homebrew/dupes
         - homebrew/versions
         - caskroom/cask
+        - caskroom/fonts
 
     packages:
         - git
@@ -35,3 +36,4 @@ homebrew:
         - gpgtools
         - virtualbox
         - vagrant
+        - font-fira-mono
