@@ -23,6 +23,7 @@ homebrew:
         - go
         - python
         - rainbarf
+        - irssi
 
     casks:
         - firefox
