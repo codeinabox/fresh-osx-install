@@ -25,6 +25,10 @@ homebrew:
         - rainbarf
         - irssi
 
+    packages_with_options:
+        - name: vim
+          options: with-lua
+
     casks:
         - firefox
         - dropbox

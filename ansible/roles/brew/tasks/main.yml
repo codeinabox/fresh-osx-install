@@ -15,8 +15,9 @@
   homebrew: name={{ item }} state=latest
   with_items: homebrew.packages
 
-- name: Install Vim with install options
-  homebrew: name=vim state=latest install_options=with-lua
+- name: Install packages with install options
+  homebrew: name={{ item.name }} state=latest install_options='{{ item.options }}'
+  with_items: homebrew.packages_with_options
 
 - name: Install casks
   homebrew_cask: name={{ item }}
