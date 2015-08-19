@@ -4,6 +4,7 @@ homebrew:
         - homebrew/versions
         - caskroom/cask
         - caskroom/fonts
+        - neovim/neovim
 
     packages:
         - git
@@ -31,6 +32,8 @@ homebrew:
           options: with-lua
         - name: weechat
           options: with-aspell with-curl with-python with-perl with-ruby with-lua with-guile
+        - name: neovim
+          options: HEAD
 
     casks:
         - firefox
