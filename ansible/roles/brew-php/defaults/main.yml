@@ -6,9 +6,9 @@ php:
             - homebrew/versions
             - homebrew/php
         packages:
-            - php55
-            - php55-mcrypt
-            - php55-xdebug
+            - php56
+            - php56-mcrypt
+            - php56-xdebug
             - php-code-sniffer
             - composer
             - phpmd
