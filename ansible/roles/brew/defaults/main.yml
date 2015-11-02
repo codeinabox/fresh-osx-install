@@ -26,14 +26,13 @@ homebrew:
         - rainbarf
         - irssi
         - aspell
+        - neovim
 
     packages_with_options:
         - name: vim
           options: with-lua
         - name: weechat
           options: with-aspell with-curl with-python with-perl with-ruby with-lua with-guile
-        - name: neovim
-          options: HEAD
 
     casks:
         - firefox
