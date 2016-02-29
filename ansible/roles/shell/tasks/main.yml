@@ -12,9 +12,3 @@
 - name: Change the shell
   command: chsh -s {{ shell_path_result.stdout }} {{ansible_user_id}}
   sudo: yes
-
-# Fix problem where BASH and Zsh will have the wrong PATH in non-interactive mode https://github.com/dotphiles/dotzsh#mac-os-x
-- name: Fix the path_helper on OS X
-  shell: chmod ugo-x /usr/libexec/path_helper
-  sudo: yes
-  when: ansible_os_family == "Darwin"
