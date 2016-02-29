@@ -9,16 +9,16 @@
 
 - name: Add taps
   homebrew_tap: tap={{ item }}
-  with_items: homebrew.taps
+  with_items: '{{ homebrew.taps }}'
 
 - name: Install packages
   homebrew: name={{ item }}
-  with_items: homebrew.packages
+  with_items: '{{ homebrew.packages }}'
 
 - name: Install packages with install options
   homebrew: name={{ item.name }} state=latest install_options='{{ item.options }}'
-  with_items: homebrew.packages_with_options
+  with_items: '{{ homebrew.packages_with_options }}'
 
 - name: Install casks
   homebrew_cask: name={{ item }}
-  with_items: homebrew.casks
+  with_items: '{{ homebrew.casks }}'

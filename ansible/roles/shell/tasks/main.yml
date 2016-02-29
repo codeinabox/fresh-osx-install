@@ -6,9 +6,9 @@
   register: shell_path_result
 
 - name: Ensure shell path is in approved shells
-  sudo: yes
+  become: yes
   lineinfile: dest=/etc/shells line={{ shell_path_result.stdout }}
 
 - name: Change the shell
   command: chsh -s {{ shell_path_result.stdout }} {{ansible_user_id}}
-  sudo: yes
+  become: yes

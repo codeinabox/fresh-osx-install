@@ -4,7 +4,7 @@ This is a WIP script to setup all the software and my [dot files](https://github
 ## Dependencies
 You need the following things installed before hand
  * Homebrew
- * Ansible
+ * Ansible 2
 
 ## Usage
 Simply run `make`

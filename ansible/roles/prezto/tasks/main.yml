@@ -10,4 +10,4 @@
 
 - name: Link runcoms
   file: src=~/.zprezto/runcoms/{{ item }} dest=~/.{{ item }} state=link
-  with_items: prezto_runcoms_result.stdout_lines
+  with_items: '{{ prezto_runcoms_result.stdout_lines }}'

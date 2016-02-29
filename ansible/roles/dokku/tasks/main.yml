@@ -3,7 +3,7 @@
   git: repo={{ dokku.repo }} dest={{ dokku.path }} force=yes
 
 - name: Add dokku.me to /etc/hosts
-  sudo: yes
+  become: yes
   lineinfile: dest=/etc/hosts line="10.0.0.2 dokku.me"
 
 - name: Change the host port
