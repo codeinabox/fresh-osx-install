@@ -34,6 +34,8 @@ homebrew:
         - name: weechat
           options: with-aspell with-curl with-python with-perl with-ruby with-lua with-guile
 
+    application_dir: ~/Applications
+
     casks:
         - firefox
         - dropbox

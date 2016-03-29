@@ -21,4 +21,6 @@
 
 - name: Install casks
   homebrew_cask: name={{ item }}
+  environment:
+    HOMEBREW_CASK_OPTS: "--appdir={{ homebrew.application_dir }}"
   with_items: '{{ homebrew.casks }}'
