@@ -12,3 +12,9 @@
 - name: Change the shell
   command: chsh -s {{ shell_path_result.stdout }} {{ansible_user_id}}
   become: yes
+
+- name: iTerm2 integration
+  get_url:
+    url: https://iterm2.com/misc/{{ shell.name }}_startup.in
+    dest: ~/.iterm2_shell_integration.{{ shell.name }}
+  when: ansible_os_family == "Darwin"
