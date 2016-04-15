@@ -16,3 +16,43 @@ osx:
     - domain: com.apple.finder EmptyTrashSecurely
       key: -bool
       value: true
+
+    # Initial key repeat
+    - domain: NSGlobalDomain InitialKeyRepeat
+      key: -int
+      value: 25
+
+    # keyboard repeat rate
+    - domain: NSGlobalDomain KeyRepeat
+      key: -int
+      value: 6
+
+    # Dock {{{
+    - domain: com.apple.Dock
+      key: autohide
+      value: -bool true
+
+    - domain: com.apple.Dock
+      key: magnification
+      value: -bool true
+
+    - domain: com.apple.Dock
+      key: mineffect
+      value: -string genie;
+
+    - domain: com.apple.Dock
+      key: minimize-to-application
+      value: -bool true
+
+    - domain: com.apple.Dock
+      key: orientation
+      value: -string left
+
+    - domain: com.apple.Dock
+      key: tilesize
+      value: -int 26
+
+    - domain: com.apple.Dock
+      key: largesize
+      value: -float 60
+    # }}}
