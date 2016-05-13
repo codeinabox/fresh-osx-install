@@ -2,6 +2,7 @@ homebrew:
     taps:
         - homebrew/dupes
         - homebrew/versions
+        - homebrew/completions
         - caskroom/cask
         - caskroom/fonts
         - neovim/neovim
@@ -10,6 +11,7 @@ homebrew:
         - git
         - brew-cask
         - wget
+        - bash
         - zsh
         - ruby
         - ctags
@@ -27,6 +29,8 @@ homebrew:
         - irssi
         - aspell
         - neovim
+        - bash-completion
+        - vagrant-completion
 
     packages_with_options:
         - name: vim
