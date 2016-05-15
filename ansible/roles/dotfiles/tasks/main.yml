@@ -20,6 +20,3 @@
 
 - name: Link ~/.config/nvim to ~/.vim
   file: src=~/.vim dest=~/.config/nvim state=link force=yes
-
-- name: Link ~/.config/nvim/init.vim to ~/.vimrc
-  file: src=~/.vimrc dest=~/.config/nvim/init.vim state=link force=yes
