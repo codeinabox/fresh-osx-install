@@ -10,7 +10,6 @@
     - dotfiles
     - vim
     - tmux
-    - docker
     - brew-php
     - npm
     - dokku
