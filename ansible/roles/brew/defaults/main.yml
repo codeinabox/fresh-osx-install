@@ -41,7 +41,6 @@ homebrew:
     application_dir: ~/Applications
 
     casks:
-        - firefox
         - dropbox
         - iterm2
         - google-chrome
