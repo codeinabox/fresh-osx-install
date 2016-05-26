@@ -17,4 +17,5 @@
   get_url:
     url: https://iterm2.com/misc/{{ shell.name }}_startup.in
     dest: ~/.iterm2_shell_integration.{{ shell.name }}
+    force: yes
   when: ansible_os_family == "Darwin"
