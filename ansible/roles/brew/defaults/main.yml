@@ -9,7 +9,6 @@ homebrew:
 
     packages:
         - git
-        - brew-cask
         - wget
         - bash
         - zsh
