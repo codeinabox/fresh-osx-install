@@ -1,6 +1,0 @@
-{
-    "ansible/playbook.yml": {"type": "playbook"},
-    "README.md": {"type": "doc"},
-    "ansible/roles/*/defaults/main.yml": {"type": "defaults", "alternate": "ansible/roles/{}/tasks/main.yml"},
-    "ansible/roles/*/tasks/main.yml": {"type": "task", "alternate": "ansible/roles/{}/defaults/main.yml"}
-}

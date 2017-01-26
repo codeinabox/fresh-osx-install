@@ -6,7 +6,6 @@
     - brew
     - shell
     - osx
-    - prezto
     - dotfiles
     - vim
     - tmux
