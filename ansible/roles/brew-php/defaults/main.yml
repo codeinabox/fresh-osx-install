@@ -6,9 +6,11 @@ php:
             - homebrew/versions
             - homebrew/php
         packages:
-            - php70
-            - php70-mcrypt
-            - php70-xdebug
+            - php71
+            - php71-mcrypt
+            - php71-xdebug
+            - php71-msgpack
+            - php71-pcntl
             - php-code-sniffer
             - composer
             - phpmd
