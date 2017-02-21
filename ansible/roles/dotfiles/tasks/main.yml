@@ -18,5 +18,8 @@
   file: src={{ dotfiles.path }}/{{ item }} dest=~/{{ item }} state=link force=yes
   with_items: '{{ dotfiles_find.stdout_lines }}'
 
+- name: Ensure that ~/.config exists
+  file: path=~/.config state=directory
+
 - name: Link ~/.config/nvim to ~/.vim
   file: src=~/.vim dest=~/.config/nvim state=link force=yes
