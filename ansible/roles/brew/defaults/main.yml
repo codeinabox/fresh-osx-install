@@ -22,6 +22,7 @@ homebrew:
         - entr
         - hub
         - ack
+        - fzf
         - go
         - python
         - rainbarf
