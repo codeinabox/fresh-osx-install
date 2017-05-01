@@ -5,3 +5,4 @@ npm:
         - js-yaml
         - jshint
         - jsonlint
+        - csslint
