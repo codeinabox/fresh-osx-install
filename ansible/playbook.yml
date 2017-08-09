@@ -7,7 +7,6 @@
     - shell
     - osx
     - dotfiles
-    - vim
     - tmux
     - brew-php
     - npm

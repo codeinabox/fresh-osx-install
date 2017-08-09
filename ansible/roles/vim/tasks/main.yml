@@ -1,8 +1,0 @@
----
-# Vim
-
-- name: Download Vundle
-  git: repo=https://github.com/gmarik/Vundle.vim.git dest=~/.vim/bundle/Vundle.vim
-
-- name: Install and update plugins
-  shell: vim +PluginInstall +PluginUpdate +qall
