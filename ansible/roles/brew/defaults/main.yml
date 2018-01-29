@@ -43,7 +43,6 @@ homebrew:
 
     casks:
         - dropbox
-        - iterm2
         - google-chrome
         - appcleaner
         - time-out
