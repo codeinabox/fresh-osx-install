@@ -27,6 +27,11 @@ osx:
       key: -int
       value: 6
 
+    # Save screen captures to desktop
+    - domain: com.apple.screencapture
+      key: location
+      value: ~/Desktop
+
     # Dock {{{
     - domain: com.apple.Dock
       key: autohide
