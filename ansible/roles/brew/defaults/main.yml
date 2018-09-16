@@ -1,11 +1,6 @@
 homebrew:
     taps:
-        - homebrew/dupes
-        - homebrew/versions
-        - homebrew/completions
-        - caskroom/cask
-        - caskroom/fonts
-        - neovim/neovim
+        - homebrew/cask-fonts
 
     packages:
         - git
