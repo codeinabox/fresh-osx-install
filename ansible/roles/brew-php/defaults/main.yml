@@ -1,10 +1,6 @@
 ---
 php:
     brew:
-        taps:
-            - homebrew/dupes
-            - homebrew/versions
-            - homebrew/php
         packages:
             - php71
             - php71-mcrypt

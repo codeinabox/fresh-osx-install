@@ -1,13 +1,6 @@
 ---
 # PHP
 
-- name: Add brew taps
-  homebrew_tap: tap={{ item }}
-  with_items: '{{ php.brew.taps }}'
-
-- name: Remove josegonzalez/php tap
-  homebrew_tap: tap=josegonzalez/php state=absent
-
 - name: Install packages
   homebrew: name={{ item }}
   with_items: '{{ php.brew.packages }}'
