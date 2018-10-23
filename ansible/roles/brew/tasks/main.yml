@@ -12,8 +12,7 @@
   with_items: '{{ homebrew.taps }}'
 
 - name: Install packages
-  homebrew: name={{ item }}
-  with_items: '{{ homebrew.packages }}'
+  homebrew: name='{{ homebrew.packages }}'
 
 - name: Install packages with install options
   homebrew: name={{ item.name }} state=latest install_options='{{ item.options }}'
