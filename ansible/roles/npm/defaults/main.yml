@@ -1,8 +1,10 @@
 npm:
     global:
+        - yarn
         - bower
         - gulp
         - js-yaml
         - jshint
         - jsonlint
         - csslint
+        - javascript-typescript-langserver
