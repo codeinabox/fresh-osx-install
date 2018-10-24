@@ -21,6 +21,7 @@ homebrew:
         - fzf
         - go
         - python
+        - python2
         - rainbarf
         - irssi
         - aspell
