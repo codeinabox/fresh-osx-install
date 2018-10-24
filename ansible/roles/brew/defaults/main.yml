@@ -27,7 +27,6 @@ homebrew:
         - aspell
         - neovim
         - bash-completion
-        - vagrant-completion
         - zsh-completions
 
     packages_with_options:
@@ -47,8 +46,6 @@ homebrew:
         - isolator
         - flux
         - gpgtools
-        - virtualbox
-        - vagrant
         - 1password
         - slack
         - font-fira-mono
