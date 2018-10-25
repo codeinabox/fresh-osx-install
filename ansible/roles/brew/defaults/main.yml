@@ -13,8 +13,7 @@ homebrew:
         - reattach-to-user-namespace
         - direnv
         - vimpager
-        - nodejs
-        - entr
+        - node
         - hub
         - ack
         - ag
@@ -23,8 +22,6 @@ homebrew:
         - python
         - python2
         - rainbarf
-        - irssi
-        - aspell
         - neovim
         - bash-completion
         - zsh-completions
@@ -32,20 +29,13 @@ homebrew:
     packages_with_options:
         - name: vim
           options: with-lua
-        - name: weechat
-          options: with-aspell with-curl with-python with-perl with-ruby with-lua with-guile
 
     application_dir: ~/Applications
 
     casks:
         - dropbox
-        - google-chrome
         - appcleaner
-        - time-out
         - selfcontrol
         - isolator
-        - flux
-        - gpgtools
-        - 1password
         - slack
         - font-fira-mono
