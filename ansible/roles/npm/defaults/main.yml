@@ -3,6 +3,9 @@ npm:
         - yarn
         - bower
         - gulp
+        - typescript
+        - tslint
+        - typescript-formatter
         - js-yaml
         - jshint
         - jsonlint
