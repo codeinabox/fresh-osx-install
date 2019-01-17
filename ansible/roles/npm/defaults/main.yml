@@ -1,6 +1,5 @@
 npm:
     global:
-        - yarn
         - bower
         - gulp
         - typescript

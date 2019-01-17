@@ -14,6 +14,7 @@ homebrew:
         - direnv
         - vimpager
         - node
+        - yarn
         - hub
         - ack
         - ag
