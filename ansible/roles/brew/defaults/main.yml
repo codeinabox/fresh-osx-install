@@ -3,28 +3,28 @@ homebrew:
         - homebrew/cask-fonts
 
     packages:
-        - git
-        - wget
-        - bash
-        - zsh
-        - ruby
-        - ctags
-        - tmux
-        - reattach-to-user-namespace
-        - direnv
-        - vimpager
-        - node
-        - yarn
-        - hub
         - ack
         - ag
+        - bash
+        - bash-completion
+        - ctags
+        - direnv
         - fzf
+        - git
         - go
+        - hub
+        - neovim
+        - node
         - python
         - python2
         - rainbarf
-        - neovim
-        - bash-completion
+        - reattach-to-user-namespace
+        - ruby
+        - tmux
+        - vimpager
+        - wget
+        - yarn
+        - zsh
         - zsh-completions
 
     packages_with_options:
@@ -34,9 +34,9 @@ homebrew:
     application_dir: ~/Applications
 
     casks:
-        - dropbox
         - appcleaner
-        - selfcontrol
-        - isolator
-        - slack
+        - dropbox
         - font-fira-mono
+        - isolator
+        - selfcontrol
+        - slack

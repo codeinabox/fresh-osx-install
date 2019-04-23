@@ -1,12 +1,12 @@
 npm:
     global:
         - bower
+        - csslint
         - gulp
-        - typescript
-        - tslint
-        - typescript-formatter
+        - javascript-typescript-langserver
         - js-yaml
         - jshint
         - jsonlint
-        - csslint
-        - javascript-typescript-langserver
+        - tslint
+        - typescript
+        - typescript-formatter
