@@ -6,9 +6,11 @@ npm:
         - dockerfile-language-server-nodejs
         - gulp
         - javascript-typescript-langserver
+        - js-beautify
         - js-yaml
         - jshint
         - jsonlint
+        - prettier
         - serverless
         - tslint
         - typescript
