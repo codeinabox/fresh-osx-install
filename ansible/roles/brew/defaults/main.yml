@@ -1,5 +1,7 @@
 homebrew:
     taps:
+        - heroku/brew
+        - homebrew/cask
         - homebrew/cask-fonts
 
     packages:
@@ -12,11 +14,12 @@ homebrew:
         - fzf
         - git
         - go
+        - heroku
         - hub
         - neovim
         - node
         - python
-        - python2
+        - python@2
         - rainbarf
         - reattach-to-user-namespace
         - ruby
@@ -36,7 +39,14 @@ homebrew:
     casks:
         - appcleaner
         - dropbox
+        - fantastical
         - font-fira-mono
-        - isolator
+        - hocus-focus
+        - java
+        - keybase
+        - pocket-casts
+        - rocket
         - selfcontrol
+        - signal
         - slack
+        - vimr
