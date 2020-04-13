@@ -17,3 +17,6 @@
 
 - name: Link ~/.config/nvim to ~/.vim
   file: src=~/.vim dest=~/.config/nvim state=link force=yes
+
+- name: Link ~/.config/kitty
+  file: src={{ dotfiles.path }}/kitty dest=~/.config/kitty state=link force=yes
