@@ -10,6 +10,7 @@ homebrew:
         - bash
         - bash-completion
         - ctags
+        - deno
         - direnv
         - fzf
         - git
@@ -50,4 +51,5 @@ homebrew:
         - selfcontrol
         - signal
         - slack
+        - typora
         - vimr
