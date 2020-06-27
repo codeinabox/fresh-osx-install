@@ -9,6 +9,7 @@ npm:
         - js-yaml
         - jshint
         - jsonlint
+        - serverless
         - tslint
         - typescript
         - typescript-formatter
