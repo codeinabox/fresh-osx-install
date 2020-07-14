@@ -15,6 +15,7 @@ homebrew:
         - fzf
         - git
         - go
+        - hashicorp/tap/terraform-ls
         - heroku
         - hub
         - neovim
@@ -25,6 +26,7 @@ homebrew:
         - rainbarf
         - reattach-to-user-namespace
         - ruby
+        - terraform
         - tmux
         - vimpager
         - wget
