@@ -23,7 +23,6 @@ homebrew:
         - node
         - pandoc
         - python
-        - python@2
         - rainbarf
         - reattach-to-user-namespace
         - ruby
