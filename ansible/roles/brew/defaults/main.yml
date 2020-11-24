@@ -20,7 +20,7 @@ homebrew:
         - heroku
         - hub
         - neovim
-        - node
+        - node@12
         - pandoc
         - python
         - rainbarf
