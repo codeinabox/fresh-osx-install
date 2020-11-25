@@ -4,6 +4,9 @@ homebrew:
         - homebrew/cask
         - homebrew/cask-fonts
 
+    duplicate_taps:
+        - caskroom/fonts
+
     packages:
         - ack
         - ag

@@ -11,6 +11,10 @@
   homebrew_tap: tap={{ item }}
   with_items: '{{ homebrew.taps }}'
 
+- name: Remove Homebrew taps with duplicates
+  homebrew_tap: tap={{ item }} state=absent
+  with_items: '{{ homebrew.duplicate_taps }}'
+
 - name: Install packages
   homebrew: name='{{ homebrew.packages }}'
 
