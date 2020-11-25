@@ -29,6 +29,7 @@ homebrew:
         - rainbarf
         - reattach-to-user-namespace
         - ruby
+        - stow
         - terraform
         - tmux
         - vimpager
