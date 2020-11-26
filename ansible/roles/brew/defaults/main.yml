@@ -24,6 +24,7 @@ homebrew:
         - hub
         - neovim
         - node@12
+        - openjdk
         - pandoc
         - python
         - rainbarf
@@ -49,7 +50,6 @@ homebrew:
         - dropbox
         - fantastical
         - font-fira-mono
-        - java
         - keybase
         - kitty
         - pocket-casts
