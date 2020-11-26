@@ -49,7 +49,7 @@ homebrew:
         - appcleaner
         - dropbox
         - fantastical
-        - font-fira-mono
+        - font-jetbrains-mono
         - keybase
         - kitty
         - pocket-casts
