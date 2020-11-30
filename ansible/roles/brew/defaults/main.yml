@@ -33,15 +33,12 @@ homebrew:
         - stow
         - terraform
         - tmux
+        - vim
         - vimpager
         - wget
         - yarn
         - zsh
         - zsh-completions
-
-    packages_with_options:
-        - name: vim
-          options: with-lua
 
     application_dir: ~/Applications
 

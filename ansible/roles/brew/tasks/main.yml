@@ -18,10 +18,6 @@
 - name: Install packages
   homebrew: name='{{ homebrew.packages }}'
 
-- name: Install packages with install options
-  homebrew: name={{ item.name }} state=latest install_options='{{ item.options }}'
-  with_items: '{{ homebrew.packages_with_options }}'
-
 - name: Install casks
   homebrew_cask: name={{ item }}
   environment:
