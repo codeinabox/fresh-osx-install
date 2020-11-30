@@ -16,6 +16,7 @@ homebrew:
         - deno
         - direnv
         - fzf
+        - gh
         - git
         - go
         - hadolint
