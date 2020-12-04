@@ -50,6 +50,7 @@ homebrew:
         - font-jetbrains-mono
         - keybase
         - kitty
+        - ngrok
         - pocket-casts
         - rocket
         - selfcontrol
