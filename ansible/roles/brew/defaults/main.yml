@@ -52,6 +52,7 @@ homebrew:
         - kitty
         - ngrok
         - pocket-casts
+        - postman
         - rocket
         - selfcontrol
         - signal
