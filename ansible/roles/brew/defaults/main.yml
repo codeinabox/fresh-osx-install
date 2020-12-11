@@ -32,7 +32,7 @@ homebrew:
         - reattach-to-user-namespace
         - ruby
         - stow
-        - terraform
+        - tfenv
         - tmux
         - vim
         - vimpager
