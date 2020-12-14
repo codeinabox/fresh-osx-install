@@ -4,6 +4,7 @@ npm:
         - bower
         - csslint
         - dockerfile-language-server-nodejs
+        - gitduck
         - gulp
         - javascript-typescript-langserver
         - js-beautify
