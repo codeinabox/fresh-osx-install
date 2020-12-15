@@ -19,3 +19,8 @@
   shell: stow kitty -t ~/.config/kitty
   args:
       chdir: "{{ dotfiles.path }}"
+
+- name: Visual Studio Code
+  shell: stow vscode -t ~
+  args:
+      chdir: "{{ dotfiles.path }}"
