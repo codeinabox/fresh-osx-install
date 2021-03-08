@@ -16,7 +16,7 @@
   file: src=~/.vim dest=~/.config/nvim state=link force=yes
 
 - name: Link ~/.config/kitty
-  shell: stow kitty -t ~/.config/kitty
+  shell: stow kitty -t ~
   args:
       chdir: "{{ dotfiles.path }}"
 
