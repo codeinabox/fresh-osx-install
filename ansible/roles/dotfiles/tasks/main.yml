@@ -5,7 +5,7 @@
   git: repo={{ dotfiles.repo }} dest={{ dotfiles.path }} version=master force=no recursive=yes
 
 - name: Link dotfiles
-  shell: stow . -t ~
+  shell: stow . -t ~ --adopt
   args:
       chdir: "{{ dotfiles.path }}"
 
